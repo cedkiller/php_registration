@@ -1,0 +1,141 @@
+html {
+    scroll-behavior: smooth;
+    scrollbar-color: black gray;
+    scrollbar-width: thin;
+}
+
+* {
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: gray;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 5px;
+}
+
+.div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div2 {
+    width: 935px;
+    height: 850px;
+    margin-left: 15px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px;
+}
+
+.label {
+    font-size: 20px;
+    color: black;
+}
+
+.input {
+    height: 50px;
+    width: 700px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.label2 {
+    font-size: 20px;
+    color: black;
+}
+
+.input2 {
+    height: 50px;
+    width: 700px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.label3 {
+    font-size: 20px;
+    color: black;
+}
+
+.input3 {
+    height: 50px;
+    width: 700px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.submit {
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+    padding: 5px 25px;
+    background: black;
+    color: aliceblue;
+    border-radius: 10px;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.submit:hover {
+    opacity: 0.5;
+}
+
+.table {
+    width: 800px;
+    height: 300px;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.td {
+    text-align: center;
+}
+
+.ed {
+    cursor: pointer;
+    text-decoration: none;
+    width: 150px;
+    height: 30px;
+    padding: 5px 25px;
+    background: blue;
+    color: aliceblue;
+    border-radius: 10px;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.ed:hover {
+    opacity: 0.5;
+}
+
+.del {
+    cursor: pointer;
+    text-decoration: none;
+    width: 150px;
+    height: 30px;
+    padding: 5px 25px;
+    background: red;
+    color: aliceblue;
+    border-radius: 10px;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.del:hover {
+    opacity: 0.5;
+}
